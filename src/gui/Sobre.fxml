@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="900.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane prefHeight="3.0" prefWidth="900.0" style="-fx-background-color: #ff0083;" />
+      <AnchorPane prefHeight="62.0" prefWidth="1650.0" style="-fx-background-color: #000000;">
+         <children>
+            <Label layoutX="385.0" prefHeight="51.0" prefWidth="1550.0" text="Sobre" textAlignment="CENTER" textFill="WHITE" AnchorPane.leftAnchor="385.0" AnchorPane.rightAnchor="384.0">
+               <font>
+                  <Font name="System Bold" size="38.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane prefHeight="3.0" prefWidth="900.0" style="-fx-background-color: #ff0083;" />
+      <AnchorPane prefHeight="376.0" prefWidth="900.0" style="-fx-background-color: #000000;">
+         <children>
+            <ImageView fitHeight="262.0" fitWidth="717.0" layoutX="126.0" layoutY="57.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../Downloads/NOVAS%20TELAS(1)/Imagens/WhatsApp%20Image%202021-03-17%20at%2015.58.51.jpeg" />
+               </image>
+               <effect>
+                  <Blend mode="MULTIPLY" />
+               </effect>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane prefHeight="400.0" prefWidth="900.0" style="-fx-background-color: #000000;">
+         <children>
+            <ImageView fitHeight="98.0" fitWidth="91.0" layoutX="795.0" layoutY="109.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="0.0">
+               <image>
+                  <Image url="@../../../../../Downloads/NOVAS%20TELAS(1)/Imagens/logo-removebg-preview.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="117.0" fitWidth="213.0" layoutX="338.0" layoutY="80.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../Downloads/NOVAS%20TELAS(1)/Imagens/livros5.gif" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</VBox>
